@@ -4,7 +4,7 @@
 
 <?php
 // define variables and set to empty values
-$customer_id = $PIN = "";
+$customer_id = $PIN = $customerIdErr = $PINErr = $err = "";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $customer_id = test_input($_POST["customer_id"]);
@@ -66,8 +66,8 @@ function test_input($data)
       <nav class="main-nav float-right d-none d-lg-block">
         <ul>
           <li class="active"><a href="home.html">Home</a></li>
-          <li><a href="sponsors.html">Sponsors</a></li>
-          <li><a href="index.html">Register</a></li>
+          <li><a href="sponsors.php">Sponsors</a></li>
+          <li><a href="index.php">Register</a></li>
         </ul>
       </nav><!-- .main-nav -->
       

@@ -19,7 +19,7 @@
                                 <ul>
                                     <li><a href="home.html">Home</a></li>
                                     <li><a href="sponsors.html">Sponsors</a></li>
-                                    <li><a href="index.html">Register</a></li>
+                                    <li><a href="index.php">Register</a></li>
                                 </ul>
                             </div>
                         </div>

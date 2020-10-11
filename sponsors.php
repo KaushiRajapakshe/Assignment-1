@@ -18,15 +18,15 @@
             <div class="logo float-left">
                 <!-- Uncomment below if you prefer to use an image logo -->
                 <h1 class="text-light"><img src="img/logo.png" alt="Logo" style="height: 10%; width: 6%;"
-                        class="img-fluid"><a href="index.html" class="scrollto"><span>Melbourne Polytechnic
+                        class="img-fluid"><a href="index.php" class="scrollto"><span>Melbourne Polytechnic
                             Markets</span></a></h1>
             </div>
 
             <nav class="main-nav float-right d-none d-lg-block">
                 <ul>
                     <li class="active"><a href="home.html">Home</a></li>
-                    <li><a href="sponsors.html">Sponsors</a></li>
-                    <li><a href="index.html">Register</a></li>
+                    <li><a href="sponsors.php">Sponsors</a></li>
+                    <li><a href="index.php">Register</a></li>
                 </ul>
             </nav><!-- .main-nav -->
 
@@ -88,7 +88,7 @@
                             <p>Apple MacBook Pro Channel</p>
                         </a>
                         <video class='portfolio-video' autoplay controls loop muted>
-                            <source src="file:///Users/kaushirajapakshe/Downloads/Rapid/video/MackbookReview.mp4"
+                            <source src="https://udith33.000webhostapp.com/video/MackbookReview.mp4"
                                 type="video/mp4">
                             Your browser does not support the video tag.
                         </video>
