@@ -2,33 +2,9 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <title>Melbourne Polytechnic</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="" name="keywords">
-    <meta content="" name="description">
-
-    <!-- Favicon -->
-    <link href="img/favicon1.png" rel="icon">
-    <link href="img/apple-touch-icon1.png" rel="apple-touch-icon">
-
-    <!-- Google Fonts -->
-    <link
-        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,500,600,700,700i|Montserrat:300,400,500,600,700"
-        rel="stylesheet">
-
-    <!-- Bootstrap CSS File -->
-    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Libraries CSS Files -->
-    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <link href="lib/animate/animate.min.css" rel="stylesheet">
-    <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
-
-    <!-- Main Stylesheet File -->
-    <link href="css/udithStyles.css" rel="stylesheet">
+<?php include 'header.php';?>
+<?php include 'error.php';?>
+<?php include 'success.php';?>
 </head>
 
 <body>
@@ -48,9 +24,9 @@
 
             <nav class="main-nav float-right d-none d-lg-block">
                 <ul>
-                    <li class="active"><a href="index.html">Home</a></li>
+                    <li class="active"><a href="home.html">Home</a></li>
                     <li><a href="sponsors.html">Sponsors</a></li>
-                    <li><a href="#register">Register</a></li>
+                    <li><a href="index.html">Register</a></li>
                 </ul>
             </nav><!-- .main-nav -->
 
@@ -131,59 +107,7 @@
         </section><!-- #portfolio -->
     </main>
 
-    <!--==========================
-    Footer
-  ============================-->
-    <footer id="footer" class="section-bg">
-        <div class="footer-top">
-            <div class="container">
-
-                <div class="row">
-
-                    <div class="col-lg-6">
-
-                        <div class="row">
-
-                            <div class="col-sm-6">
-                                <div class="footer-links">
-                                    <h4>Useful Links</h4>
-                                    <ul>
-                                        <li><a href="index.html">Home</a></li>
-                                        <li><a href="sponsors.html">Sponsors</a></li>
-                                        <li><a href="#">Register</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-
-                        </div>
-
-                    </div>
-                    <div class="col-sm-6">
-                        <div class="footer-links">
-                            <h4>Contact Us</h4>
-                            <p>
-                                A108 Adam Street <br>
-                                New York, NY 535022<br>
-                                United States <br>
-                                <strong>Phone:</strong> +61 480 149 868<br>
-                                <strong>Email:</strong> udithbhanu@gmail.com<br>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-
-        <div class="container">
-            <div class="copyright">
-                &copy; Copyright <strong>2020-10-11</strong>. All Rights Reserved
-            </div>
-            <div class="credits">
-                Designed by <a href="">Webmaster Udith</a>
-            </div>
-        </div>
-    </footer><!-- #footer -->
+    <div><?php include 'footer.php';?></div>
 
     <a href="#" class="back-to-top"><em class="fa fa-chevron-up"></em></a>
     <!-- Uncomment below i you want to use a preloader -->
